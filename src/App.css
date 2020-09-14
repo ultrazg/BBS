@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar-layout {
+  width: 100%;
+  height: 50px;
+  background: #ffffff;
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+  color: #57606f;
+  position: fixed;
+}
+.navbar-layout div:nth-child(1) {
+  flex: 1;
+}
+.navbar-layout div:nth-child(2) {
+  flex: 1;
+}
+.navbar-layout div:nth-child(3) {
+  flex: 1;
+  font-weight: 600;
+}
+.navbar-layout div:nth-child(3) span {
+  padding: 0.2rem 0.5rem;
+}
+.navbar-layout div:nth-child(3) .reg-border {
+  border: 1px solid #57606f;
+  border-radius: 2px;
+}
+.index-layout {
+  padding: 0.5rem;
+  padding-top: 56px;
+}
+.register-layout {
+  padding: 0.5rem;
+  padding-top: 65px;
+}
+.register-layout h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #57606f;
+}
+.register-layout .content {
+  width: 100%;
+  height: 50px;
+  margin-top: 1rem;
+}
+.register-layout .content p {
+  text-align: center;
+  margin: 0.8rem 0rem;
+  font-size: 1.2rem;
+}
+.register-layout .content p p {
+  color: #70a1ff;
+  display: inline;
+  font-weight: 600;
+}
+.register-layout .content p span {
+  color: #cccccc;
+}
+.register-layout .content p span input {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #cccccc;
+  margin-left: 0.3rem;
+  outline-style: none;
+  background: none;
+}
+.register-layout .content p button {
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #1e90ff;
+  color: #ffffff;
+  background: #1e90ff;
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  transition: 0.1s;
+}
+/*# sourceMappingURL=App.css.map */
